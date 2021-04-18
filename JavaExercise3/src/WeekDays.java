@@ -69,7 +69,7 @@ public class WeekDays {
 		}
 		
 		else {
-			System.out.println("Invalid entry");
+			System.out.println("Invalid entry.");
 		}
 
 		input.close();
