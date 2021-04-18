@@ -59,13 +59,17 @@ public class WeekDays {
 			break;
 		}
 
-		if (day < 6) {
+		if (day < 6 && day >=1 ) {
 
 			System.out.println(d + " is a weekday");
 		}
 
-		else {
+		else if (day == 6 || day == 7) {
 			System.out.println(d + " is a weekend");
+		}
+		
+		else {
+			System.out.println("Invalid entry");
 		}
 
 		input.close();
