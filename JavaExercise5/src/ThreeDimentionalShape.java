@@ -11,7 +11,7 @@ public class ThreeDimentionalShape extends Polygon {
 	}
 	
 	public void displayHeight() {
-		System.out.println("Height of the three dimensional polygon is "+ height);
+		System.out.println("Height of the three dimensional polygon is "+ this.height);
 	}
 	
 

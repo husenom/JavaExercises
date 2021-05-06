@@ -26,7 +26,7 @@ public class AverageNum {
 				i++;
 			}
 
-			int aver = total / i;
+			double aver = total / i;
 			System.out.println("The average is: " + aver);
 			
 		} else {

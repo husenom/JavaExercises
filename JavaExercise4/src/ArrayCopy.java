@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 // Question 4
 
 public class ArrayCopy {
@@ -20,19 +22,17 @@ public class ArrayCopy {
 
 			Array2[i] = Array[i];
 
-			System.out.print(Array2[i] + " ");
-			
-
 		}
-		System.out.println("\n");
+		
+		System.out.println(Arrays.toString(Array2));
 		
 		for (int i = 0; i < Array.length; i++) {
 
 			ArrayS2[i] = ArrayS[i];
 
-			System.out.print(ArrayS2[i] + " ");
-
 		}
+		
+		System.out.print(Arrays.toString(ArrayS2));
 
 	}
 

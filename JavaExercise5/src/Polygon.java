@@ -19,14 +19,22 @@ public class Polygon {
 		
 	}
 	
+	public int getSides() {
+		return this.sides;
+	}
+	
+	public String getColor() {
+		return this.color;
+	}
+	
 	// Behaviour/Method	
 	
 	public void numberOfSides() {
-		System.out.println("The polygon has " + sides + " sides");
+		System.out.println("The polygon has " + this.sides + " sides");
 	}
 	
 	public void TypeOfcolor() {
-		System.out.println("The polygon has " + color + " color");
+		System.out.println("The polygon has " + this.color + " color");
 	}
 
 }

@@ -6,7 +6,7 @@ public class ArrayIndex {
 
 		int[] Array = {4, 6, 7, 9};
 		
-		int x = 6;
+		int x = 4;
 
 		int i = 0;
 
@@ -18,7 +18,7 @@ public class ArrayIndex {
 				break;
 			}
 			
-			else if (i == Array.length-1)
+			else if (i == 3)
 				
 				System.out.println("The number is not found in the array.");
 		}

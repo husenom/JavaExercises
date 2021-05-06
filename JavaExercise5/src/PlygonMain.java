@@ -11,6 +11,12 @@ public class PlygonMain {
 		triangle.numberOfSides();
 		triangle.TypeOfcolor();
 		
+		System.out.println(triangle.getSides());
+		System.out.println(triangle.getColor());
+		
+		printSides(triangle.getSides());
+		printColor(triangle.getColor());
+		
 		rectangle.numberOfSides();
 		rectangle.TypeOfcolor();
 		
@@ -24,6 +30,15 @@ public class PlygonMain {
 		rectangularThreeD.displayHeight();
 		
 
+	}
+	
+	public static void printSides(int sides) {
+		System.out.println(sides);
+	}
+	
+
+	public static void printColor(String color) {
+		System.out.println(color);
 	}
 
 }
