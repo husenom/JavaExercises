@@ -15,13 +15,12 @@ public class PositiveInt {
 		int i = 0;
 
 		do {
+			num--;
 
 			if (num % 2 == 0 && num != 0) {
 
 				System.out.println(num);
 			}
-
-			num--;
 
 		}
 
